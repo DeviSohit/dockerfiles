@@ -8,3 +8,6 @@ We can build the images and we can push to any docker repository.
 ```
 docker build -t image-name:version .
 ```
+```
+docker push <URL>/<username>/<image-name>:version
+```
